@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Form Container -->
+    <form action="/" class="form-container">
+        <input type="text" name="num1" placeholder="Number 1" class="numbers" id="firstNumber">
+        <select name="operator" id="mathematicalOperator" class="operators">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" name="num2" placeholder="Number 2" class="numbers" id="secondNumber">
+        <button type="submit" name="submit" value="submit" class="submit" id="submit">Calculate</button>
+    </form>
+
+    <!-- Result Container -->
+    <p class="result-container" id="result">0</p>
+    <script src="script.js"></script>
+</body>
+</html>
